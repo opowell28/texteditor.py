@@ -1,1 +1,1 @@
-Simple text editor written in Python 3.7
+Simple text editor written in Python 2.7
