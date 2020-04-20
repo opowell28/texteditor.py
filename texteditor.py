@@ -2,11 +2,13 @@ import sys
 from Tkinter import *
 import tkFileDialog
 
+# make window
 root=Tk("Text Editor")
 
 text=Text(root)
 text.grid()
 
+# save as function and button
 def saveas():
     global text
 
@@ -19,6 +21,7 @@ def saveas():
 button=Button(root, text="Save", command=saveas)
 button.grid()
 
+# font menu
 def FontHelvetica():
     global text
     text.config(font="Helvetica")
